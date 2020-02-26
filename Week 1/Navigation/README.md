@@ -38,7 +38,7 @@ Når vi har lavet vores script skal vi tilføje det til AIen. dette gøres ved a
 Nu skal vi lave en ting som den kan følge efter, dette kommer til at være en capsule i mit tilfælde.(højreclick navigation vinduet og vælg **3D Object->Capsule**)
 
 Det sidste der skal gøres er at vælge AIen (sphere) give den et mål den skal gå hen til. Dette gøres ved at **trække capsule og i Target**. Target kan ses i inspektor vinduet i NPC Move scriptet
-![set_target](images/set_target)
+![set_target](images/set_target.png)
 
 Start spillet og se din npc løbe efter målet.
 
@@ -47,7 +47,7 @@ Start spillet og se din npc løbe efter målet.
 For at placere ting som aien ikke kan gå igennem lav en genstand(såsom en cube) som placer den på banen lige i som i **Lav et Navmesh** sektionen. 
 
 En alternativ måde at gøre det på er at lave en genstand og **Add Component** **Nav Mesh Obstacle**. Forskellen mellem de løsninger at man kan flytte på genstanden imens spillet er i gang hvis man bruger **Nav Mesh Obstacle**. Tilgengæld er spillet nok en smulle langsomere end hvis man gør genstande **Navigation static**
-![nav_mesh_obstacle](images/nav_mesh_obstacle)
+![nav_mesh_obstacle](images/nav_mesh_obstacle.png)
 
 
 # Flere navmesh ting
